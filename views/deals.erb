@@ -1,0 +1,27 @@
+
+<div class="container">
+    <h2>Deals of the day</h2>
+
+    <p> We have lots of bridges to sell you. </p>
+
+    <% 
+        deals = [
+            {name: "Broklyn bridge, NYC", img: "broklyn.jpg"},
+            {name: "Covered bridge in Wakefield, Quebec", img: "wakefield.jpg" },
+            {name: "London Bridge", img: "london.jpg"},
+            {name: "Golden Gate Bridge, San Francisco", img: "golden_gate.jpg"}
+            
+            ]
+        
+        
+    %>
+    <% deals.each do |deal| %>
+    <h3>
+        <%= deal[:name] %> 
+        <br>
+        <img class="deal-img" src="images/<%= deal[:img] %>">           
+    </h3>
+    <% end %>
+</div>
+
+
