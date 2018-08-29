@@ -40,6 +40,11 @@ p img{
    float: left;
    padding: 5px;
 }
+.deals{
+    display: flex;
+    justify-content: space-between;
+}
+
 .deal-img{
     width: 100%;
 }
@@ -303,8 +308,9 @@ footer {
     font-size: 0.9em;
     margin: 0 auto;
     cursor: pointer;
-    background-color: #00AAc8;
-    /* background-image: url("../images/surf.jpg"); */
+    color: white;
+    background-color: #001e4c;
+    background-image: url("../images/dark.jpg");
     background-attachment: fixed;
     background-position: bottom;
     background-size: cover;
